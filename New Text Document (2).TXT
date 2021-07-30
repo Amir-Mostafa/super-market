@@ -1,0 +1,71 @@
+
+
+add order_id column in skpkak operation table
+
+USE [tamwin]
+GO
+/****** Object:  StoredProcedure [dbo].[insert_sho_operaton]    Script Date: 4/2/2021 5:18:54 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER proc [dbo].[insert_sho_operaton]
+@clint_id int,
+@date_operation datetime,
+@take varchar(50),
+@give varchar(50),
+@notes varchar(50),
+@order_id int
+as
+INSERT INTO [dbo].[shokak_operations]
+           ([clint_id]
+           ,[date_operation]
+           ,[take]
+           ,[give]
+           ,[notes]
+		   ,order_id)
+     VALUES
+           (@clint_id
+           ,@date_operation
+           ,@take
+           ,@give
+           ,@notes,
+		   @order_id)
+
+
+
+
+create proc get_shokak_by_order_id 
+@order_id int
+as
+select * from shokak_operations
+where order_id=@order_id
+
+
+
+
+
+USE [tamwin]
+GO
+/****** Object:  StoredProcedure [dbo].[update_shokak_operation]    Script Date: 4/2/2021 8:35:15 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER proc [dbo].[update_shokak_operation]
+@id int,
+@clint_id int,
+@date_operation datetime,
+@take varchar(50),
+@give varchar(50),
+@notes varchar(50)
+as
+update shokak_operations
+           set 
+		   [date_operation]=@date_operation
+		   ,clint_id=@clint_id
+           ,[take]=@take
+           ,[give]=@give
+           ,[notes]=@notes
+
+		   where shokak_operations.operation_id=@id

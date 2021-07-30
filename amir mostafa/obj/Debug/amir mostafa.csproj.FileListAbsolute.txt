@@ -1,0 +1,198 @@
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\bin\Debug\amir mostafa.exe.config
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\bin\Debug\amir mostafa.exe
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\bin\Debug\amir mostafa.pdb
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.add_new_clint.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.add_operation.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.add_shokak.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.all_borrow_products.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.all_buy_orders.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.all_orders.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.backup_form.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.borrow_product.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.buy_operations.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.buy_order.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.clints_form.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.clint_report.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.form_confi.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.form_login.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.form_main.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.money_report.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.new_clint_sho.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.new_supply.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.new_user.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.operations.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.oreer_form.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.product_form.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.reports_form.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.report_buys.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.report_sells.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.repor_money.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.restory_backup.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.shokak.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.show_buy_operations.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.show_report_sells.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.storage_products.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.suppliers.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.support_mony.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.take_path.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.update_clint.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.update_supply.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.update_user.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.users.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.Properties.Resources.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.report.form_print_bprrow.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.report.form_report.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.report.print_barcode_form.resources
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir mostafa.csproj.GenerateResource.Cache
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir mostafa.exe
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir mostafa.pdb
+C:\Users\mosta\documents\visual studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir mostafa.csprojResolveAssemblyReference.cache
+C:\Users\mosta\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\bin\Debug\amir mostafa.exe.manifest
+C:\Users\mosta\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\bin\Debug\amir mostafa.application
+C:\Users\mosta\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir mostafa.exe.manifest
+C:\Users\mosta\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir mostafa.application
+C:\Users\mosta\Desktop\projects amir mostafa\برنامج التموين\c#\amir mostafa\amir mostafa\bin\Debug\amir mostafa.exe.config
+C:\Users\mosta\Desktop\projects amir mostafa\برنامج التموين\c#\amir mostafa\amir mostafa\obj\Debug\amir mostafa.exe
+C:\Users\mosta\Desktop\projects amir mostafa\برنامج التموين\c#\amir mostafa\amir mostafa\obj\Debug\amir mostafa.pdb
+C:\Users\mosta\Desktop\projects amir mostafa\برنامج التموين مشروع سي شارب\c#\amir mostafa\amir mostafa\bin\Debug\amir mostafa.exe.config
+C:\Users\mosta\Desktop\projects amir mostafa\برنامج التموين مشروع سي شارب\c#\amir mostafa\amir mostafa\obj\Debug\amir mostafa.exe
+C:\Users\mosta\Desktop\projects amir mostafa\برنامج التموين مشروع سي شارب\c#\amir mostafa\amir mostafa\obj\Debug\amir mostafa.pdb
+D:\programs\c#\amir mostafa\amir mostafa\bin\Debug\amir mostafa.exe.config
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir mostafa.exe
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir mostafa.pdb
+D:\programs\c#\amir mostafa\amir mostafa\bin\Debug\amir mostafa.exe.manifest
+D:\programs\c#\amir mostafa\amir mostafa\bin\Debug\amir mostafa.application
+D:\programs\c#\amir mostafa\amir mostafa\bin\Debug\amir mostafa.exe
+D:\programs\c#\amir mostafa\amir mostafa\bin\Debug\amir mostafa.pdb
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir mostafa.csprojResolveAssemblyReference.cache
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.add_new_clint.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.add_operation.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.add_shokak.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.all_borrow_products.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.all_buy_orders.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.all_orders.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.backup_form.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.borrow_product.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.buy_operations.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.buy_order.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.clints_form.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.clint_report.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.form_confi.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.form_login.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.form_main.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.money_report.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.new_clint_sho.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.new_supply.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.new_user.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.operations.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.oreer_form.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.product_form.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.reports_form.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.report_buys.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.report_sells.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.repor_money.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.restory_backup.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.shokak.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.show_buy_operations.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.show_report_sells.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.storage_products.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.suppliers.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.support_mony.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.take_path.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.update_clint.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.update_supply.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.update_user.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.users.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.Properties.Resources.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.report.form_print_bprrow.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.report.form_report.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.report.print_barcode_form.resources
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir mostafa.csproj.GenerateResource.Cache
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir mostafa.exe.manifest
+D:\programs\c#\amir mostafa\amir mostafa\obj\Debug\amir mostafa.application
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\bin\Debug\db\Database1.mdf
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\bin\Debug\db\Database1_log.ldf
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\bin\Debug\amir mostafa.exe.config
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\bin\Debug\amir mostafa.exe.manifest
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\bin\Debug\amir mostafa.application
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\bin\Debug\amir mostafa.exe
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\bin\Debug\amir mostafa.pdb
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\bin\Debug\FlashControlV71.dll
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\bin\Debug\Microsoft.CSharp.dll
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\bin\Debug\System.Data.dll
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\bin\Debug\System.Deployment.dll
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\bin\Debug\System.dll
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\bin\Debug\System.Drawing.dll
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\bin\Debug\System.Web.dll
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\bin\Debug\System.Web.Services.dll
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\bin\Debug\System.Windows.Forms.dll
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\bin\Debug\System.Xml.dll
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\bin\Debug\System.Xml.Linq.dll
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.add_new_clint.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.add_operation.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.add_shokak.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.all_borrow_products.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.all_buy_orders.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.all_orders.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.backup_form.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.borrow_product.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.buy_operations.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.buy_order.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.city.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.city_report.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.clints_form.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.clints_point.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.clint_report.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.date_print_shokak.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.delete_date.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.form_confi.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.form_login.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.form_main.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.money_report.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.new_clint_sho.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.new_supply.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.new_user.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.operations.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.order_from_to.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.oreer_form.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.points.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.print_from_to.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.products_order_from_to.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.product_form.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.remaind_orders.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.reports_form.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.report_buys.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.report_sells.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.repor_money.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.restory_backup.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.shokak.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.show_buy_operations.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.show_report_sells.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.storage_products.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.suppliers.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.support_mony.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.take_path.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.totak_shokak.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.totalmony.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.update_clint.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.update_shokak.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.update_supply.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.update_user.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.users.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.weight.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.pl.weight_form.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.Properties.Resources.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.report.form_print_bprrow.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.report.form_report.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir_mostafa.report.print_barcode_form.resources
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir mostafa.csproj.GenerateResource.Cache
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir mostafa.exe.manifest
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir mostafa.application
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir mostafa.exe
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir mostafa.pdb
+C:\Users\mosta\OneDrive\Documents\Visual Studio 2013\Projects\amir mostafa\amir mostafa\obj\Debug\amir mostafa.csprojResolveAssemblyReference.cache

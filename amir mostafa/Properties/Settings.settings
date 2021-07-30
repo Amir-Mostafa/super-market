@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="amir_mostafa.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="server" Type="System.String" Scope="User">
+      <Value Profile="(Default)">LAPTOP-44MI3IBC</Value>
+    </Setting>
+    <Setting Name="database" Type="System.String" Scope="User">
+      <Value Profile="(Default)">tamwin</Value>
+    </Setting>
+    <Setting Name="mode" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SQL</Value>
+    </Setting>
+    <Setting Name="id" Type="System.String" Scope="User">
+      <Value Profile="(Default)">mero</Value>
+    </Setting>
+    <Setting Name="password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">amirmostafa</Value>
+    </Setting>
+    <Setting Name="image" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\mosta\OneDrive\Pictures\Screenshots\2019-02-28.png</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

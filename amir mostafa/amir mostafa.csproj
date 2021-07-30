@@ -1,0 +1,1040 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2FE1A1FD-147D-4587-B568-A2AD9D6A4D68}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>amir_mostafa</RootNamespace>
+    <AssemblyName>amir mostafa</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\program setup\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>2B7B58A61CE7C3528397AD9F01826D011A2C9EBE</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>amir mostafa_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>AIM.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Deployment">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BL\buy_order.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BL\city.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BL\cls_login.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BL\cls_supports.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BL\orders.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BL\products.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BL\reports.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BL\shok_clints.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BL\users.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pl\city.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\city.Designer.cs">
+      <DependentUpon>city.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\city_report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\city_report.Designer.cs">
+      <DependentUpon>city_report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\clints_point.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\clints_point.Designer.cs">
+      <DependentUpon>clints_point.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\order_from_to.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\order_from_to.Designer.cs">
+      <DependentUpon>order_from_to.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\points.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\points.Designer.cs">
+      <DependentUpon>points.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\print_from_to.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\print_from_to.Designer.cs">
+      <DependentUpon>print_from_to.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\products_order_from_to.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\products_order_from_to.Designer.cs">
+      <DependentUpon>products_order_from_to.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\remaind_orders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\remaind_orders.Designer.cs">
+      <DependentUpon>remaind_orders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\totak_shokak.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\totak_shokak.Designer.cs">
+      <DependentUpon>totak_shokak.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\totalmony.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\totalmony.Designer.cs">
+      <DependentUpon>totalmony.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\update_shokak.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\update_shokak.Designer.cs">
+      <DependentUpon>update_shokak.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\weight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\weight.Designer.cs">
+      <DependentUpon>weight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\weight_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\weight_form.Designer.cs">
+      <DependentUpon>weight_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="report\buy_order.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>buy_order.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report\city.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>city.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report\collect_mony.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>collect_mony.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report\products_report.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>products_report.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Service References\clints.cs" />
+    <Compile Include="DAL\DataAccesLier.cs" />
+    <Compile Include="pl\add_new_clint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\add_new_clint.Designer.cs">
+      <DependentUpon>add_new_clint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\add_operation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\add_operation.Designer.cs">
+      <DependentUpon>add_operation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\add_shokak.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\add_shokak.Designer.cs">
+      <DependentUpon>add_shokak.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\all_borrow_products.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\all_borrow_products.Designer.cs">
+      <DependentUpon>all_borrow_products.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\all_buy_orders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\all_buy_orders.Designer.cs">
+      <DependentUpon>all_buy_orders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\all_orders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\all_orders.Designer.cs">
+      <DependentUpon>all_orders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\backup_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\backup_form.Designer.cs">
+      <DependentUpon>backup_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\borrow_product.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\borrow_product.Designer.cs">
+      <DependentUpon>borrow_product.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\buy_operations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\buy_operations.Designer.cs">
+      <DependentUpon>buy_operations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\buy_order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\buy_order.Designer.cs">
+      <DependentUpon>buy_order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\clints_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\clints_form.Designer.cs">
+      <DependentUpon>clints_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\clint_report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\clint_report.Designer.cs">
+      <DependentUpon>clint_report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\date_print_shokak.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\date_print_shokak.Designer.cs">
+      <DependentUpon>date_print_shokak.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\delete_date.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\delete_date.Designer.cs">
+      <DependentUpon>delete_date.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\form_confi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\form_confi.Designer.cs">
+      <DependentUpon>form_confi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\form_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\form_login.Designer.cs">
+      <DependentUpon>form_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\form_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\form_main.Designer.cs">
+      <DependentUpon>form_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\money_report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\money_report.Designer.cs">
+      <DependentUpon>money_report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\new_clint_sho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\new_clint_sho.Designer.cs">
+      <DependentUpon>new_clint_sho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\new_supply.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\new_supply.Designer.cs">
+      <DependentUpon>new_supply.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\new_user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\new_user.Designer.cs">
+      <DependentUpon>new_user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\operations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\operations.Designer.cs">
+      <DependentUpon>operations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\oreer_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\oreer_form.Designer.cs">
+      <DependentUpon>oreer_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\product_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\product_form.Designer.cs">
+      <DependentUpon>product_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\reports_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\reports_form.Designer.cs">
+      <DependentUpon>reports_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\report_buys.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\report_buys.Designer.cs">
+      <DependentUpon>report_buys.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\report_sells.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\report_sells.Designer.cs">
+      <DependentUpon>report_sells.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\repor_money.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\repor_money.Designer.cs">
+      <DependentUpon>repor_money.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\restory_backup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\restory_backup.Designer.cs">
+      <DependentUpon>restory_backup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\shokak.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\shokak.Designer.cs">
+      <DependentUpon>shokak.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\show_buy_operations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\show_buy_operations.Designer.cs">
+      <DependentUpon>show_buy_operations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\show_report_sells.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\show_report_sells.Designer.cs">
+      <DependentUpon>show_report_sells.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\storage_products.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\storage_products.Designer.cs">
+      <DependentUpon>storage_products.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\suppliers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\suppliers.Designer.cs">
+      <DependentUpon>suppliers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\support_mony.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\support_mony.Designer.cs">
+      <DependentUpon>support_mony.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\take_path.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\take_path.Designer.cs">
+      <DependentUpon>take_path.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\update_clint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\update_clint.Designer.cs">
+      <DependentUpon>update_clint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\update_supply.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\update_supply.Designer.cs">
+      <DependentUpon>update_supply.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\update_user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\update_user.Designer.cs">
+      <DependentUpon>update_user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pl\users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pl\users.Designer.cs">
+      <DependentUpon>users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="report\barcode.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>barcode.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report\form_print_bprrow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="report\form_print_bprrow.Designer.cs">
+      <DependentUpon>form_print_bprrow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="report\form_report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="report\form_report.Designer.cs">
+      <DependentUpon>form_report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="report\print.cs" />
+    <Compile Include="report\print_barcode_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="report\print_barcode_form.Designer.cs">
+      <DependentUpon>print_barcode_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="report\report_borrow.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>report_borrow.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report\rpt2_order.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt2_order.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report\rpt_order.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_order.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report\shokak_report.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>shokak_report.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report\shokak_report2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>shokak_report2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="tamwinDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tamwinDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tamwinDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tamwinDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tamwinDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tamwinDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tamwinDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tamwinDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tamwinDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tamwinDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tamwinDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tamwinDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tamwinDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tamwinDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tamwinDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tamwinDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tamwinDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tamwinDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tamwinDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tamwinDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tamwinDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tamwinDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tamwinDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tamwinDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tamwinDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tamwinDataSet9.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="pl\add_new_clint.resx">
+      <DependentUpon>add_new_clint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\add_operation.resx">
+      <DependentUpon>add_operation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\add_shokak.resx">
+      <DependentUpon>add_shokak.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\all_borrow_products.resx">
+      <DependentUpon>all_borrow_products.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\all_buy_orders.resx">
+      <DependentUpon>all_buy_orders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\all_orders.resx">
+      <DependentUpon>all_orders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\backup_form.resx">
+      <DependentUpon>backup_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\borrow_product.resx">
+      <DependentUpon>borrow_product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\buy_operations.resx">
+      <DependentUpon>buy_operations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\buy_order.resx">
+      <DependentUpon>buy_order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\city.resx">
+      <DependentUpon>city.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\city_report.resx">
+      <DependentUpon>city_report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\clints_form.resx">
+      <DependentUpon>clints_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\clints_point.resx">
+      <DependentUpon>clints_point.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\clint_report.resx">
+      <DependentUpon>clint_report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\date_print_shokak.resx">
+      <DependentUpon>date_print_shokak.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\delete_date.resx">
+      <DependentUpon>delete_date.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\form_confi.resx">
+      <DependentUpon>form_confi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\form_login.resx">
+      <DependentUpon>form_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\form_main.resx">
+      <DependentUpon>form_main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\money_report.resx">
+      <DependentUpon>money_report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\new_clint_sho.resx">
+      <DependentUpon>new_clint_sho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\new_supply.resx">
+      <DependentUpon>new_supply.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\new_user.resx">
+      <DependentUpon>new_user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\operations.resx">
+      <DependentUpon>operations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\order_from_to.resx">
+      <DependentUpon>order_from_to.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\oreer_form.resx">
+      <DependentUpon>oreer_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\points.resx">
+      <DependentUpon>points.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\print_from_to.resx">
+      <DependentUpon>print_from_to.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\products_order_from_to.resx">
+      <DependentUpon>products_order_from_to.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\product_form.resx">
+      <DependentUpon>product_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\remaind_orders.resx">
+      <DependentUpon>remaind_orders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\reports_form.resx">
+      <DependentUpon>reports_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\report_buys.resx">
+      <DependentUpon>report_buys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\report_sells.resx">
+      <DependentUpon>report_sells.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\repor_money.resx">
+      <DependentUpon>repor_money.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\restory_backup.resx">
+      <DependentUpon>restory_backup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\shokak.resx">
+      <DependentUpon>shokak.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\show_buy_operations.resx">
+      <DependentUpon>show_buy_operations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\show_report_sells.resx">
+      <DependentUpon>show_report_sells.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\storage_products.resx">
+      <DependentUpon>storage_products.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\suppliers.resx">
+      <DependentUpon>suppliers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\support_mony.resx">
+      <DependentUpon>support_mony.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\take_path.resx">
+      <DependentUpon>take_path.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\totak_shokak.resx">
+      <DependentUpon>totak_shokak.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\totalmony.resx">
+      <DependentUpon>totalmony.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\update_clint.resx">
+      <DependentUpon>update_clint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\update_shokak.resx">
+      <DependentUpon>update_shokak.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\update_supply.resx">
+      <DependentUpon>update_supply.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\update_user.resx">
+      <DependentUpon>update_user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\users.resx">
+      <DependentUpon>users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\weight.resx">
+      <DependentUpon>weight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl\weight_form.resx">
+      <DependentUpon>weight_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="report\barcode.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>barcode.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\buy_order.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>buy_order.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\city.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>city.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\collect_mony.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>collect_mony.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\form_print_bprrow.resx">
+      <DependentUpon>form_print_bprrow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\form_report.resx">
+      <DependentUpon>form_report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\print_barcode_form.resx">
+      <DependentUpon>print_barcode_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\products_report.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>products_report.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\report_borrow.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>report_borrow.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\rpt2_order.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt2_order.cs</LastGenOutput>
+    </EmbeddedResource>
+    <DesignDataWithDesignTimeCreatableTypes Include="report\rpt_order.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_order.cs</LastGenOutput>
+    </DesignDataWithDesignTimeCreatableTypes>
+    <EmbeddedResource Include="report\shokak_report.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>shokak_report.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\shokak_report2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>shokak_report2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="amir mostafa_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="tamwinDataSet.xsc">
+      <DependentUpon>tamwinDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="tamwinDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tamwinDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tamwinDataSet.xss">
+      <DependentUpon>tamwinDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="tamwinDataSet1.xsc">
+      <DependentUpon>tamwinDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="tamwinDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tamwinDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tamwinDataSet1.xss">
+      <DependentUpon>tamwinDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="tamwinDataSet10.xsc">
+      <DependentUpon>tamwinDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="tamwinDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tamwinDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tamwinDataSet10.xss">
+      <DependentUpon>tamwinDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="tamwinDataSet11.xsc">
+      <DependentUpon>tamwinDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="tamwinDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tamwinDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tamwinDataSet11.xss">
+      <DependentUpon>tamwinDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="tamwinDataSet12.xsc">
+      <DependentUpon>tamwinDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="tamwinDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tamwinDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tamwinDataSet12.xss">
+      <DependentUpon>tamwinDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="tamwinDataSet2.xsc">
+      <DependentUpon>tamwinDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="tamwinDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tamwinDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tamwinDataSet2.xss">
+      <DependentUpon>tamwinDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="tamwinDataSet3.xsc">
+      <DependentUpon>tamwinDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="tamwinDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tamwinDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tamwinDataSet3.xss">
+      <DependentUpon>tamwinDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="tamwinDataSet4.xsc">
+      <DependentUpon>tamwinDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="tamwinDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tamwinDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tamwinDataSet4.xss">
+      <DependentUpon>tamwinDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="tamwinDataSet5.xsc">
+      <DependentUpon>tamwinDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="tamwinDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tamwinDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tamwinDataSet5.xss">
+      <DependentUpon>tamwinDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="tamwinDataSet6.xsc">
+      <DependentUpon>tamwinDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="tamwinDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tamwinDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tamwinDataSet6.xss">
+      <DependentUpon>tamwinDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="tamwinDataSet7.xsc">
+      <DependentUpon>tamwinDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="tamwinDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tamwinDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tamwinDataSet7.xss">
+      <DependentUpon>tamwinDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="tamwinDataSet8.xsc">
+      <DependentUpon>tamwinDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="tamwinDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tamwinDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tamwinDataSet8.xss">
+      <DependentUpon>tamwinDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="tamwinDataSet9.xsc">
+      <DependentUpon>tamwinDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="tamwinDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tamwinDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tamwinDataSet9.xss">
+      <DependentUpon>tamwinDataSet9.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WIN_20190115_23_34_19_Pro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="SAP.CrystalReports14.NET.2.0">
+      <Visible>False</Visible>
+      <ProductName>SAP Crystal Reports Runtime Engine for .NET Framework</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AIM.ico" />
+    <Content Include="db\Database1.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="db\Database1_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
