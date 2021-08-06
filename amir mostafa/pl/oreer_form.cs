@@ -1164,10 +1164,20 @@ namespace amir_mostafa.pl
             double x = double.Parse(textBox16.Text);
             double y = double.Parse(dt.Rows[0]["buy_price"].ToString());
 
+            double max=y+(y/100)*20;
             if(x<=y)
             {
                 
                 if (MessageBox.Show(@"سعر الشراء = "+y.ToString()+" هل موافق؟", "", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+                {
+                    return true;
+                }
+                else
+                    return false;
+            }
+            else if(x>=max)
+            {
+                if (MessageBox.Show(@"سعر الشراء = " + y.ToString() + " هل موافق؟", "", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
                 {
                     return true;
                 }
@@ -1637,7 +1647,8 @@ namespace amir_mostafa.pl
                 oreer_form.order_f.textBox1.Text = d1.Rows[0]["order_id"].ToString();
                 oreer_form.order_f.dateTimePicker1.Value = DateTime.Parse(d1.Rows[0]["order_date"].ToString());
                 oreer_form.order_f.textBox23.Text = d1.Rows[0]["user_name"].ToString();
-                oreer_form.order_f.comboBox1.SelectedValue = Convert.ToInt32(d1.Rows[0]["clint_id"].ToString());
+                //oreer_form.order_f.comboBox1.SelectedValue = Convert.ToInt32(d1.Rows[0]["clint_id"].ToString());
+                oreer_form.order_f.comboBox1.Text = d1.Rows[0]["clint_name"].ToString();
                 //oreer_form.order_f.textBox5.Text = d1.Rows[0]["secrit_number"].ToString();
                 oreer_form.order_f.textBox3.Text = d1.Rows[0]["sons_number"].ToString();
                 oreer_form.order_f.textBox24.Text = d1.Rows[0]["number_card"].ToString();

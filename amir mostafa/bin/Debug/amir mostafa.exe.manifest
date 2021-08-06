@@ -118,14 +118,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="amir mostafa.exe" size="1726464">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="amir mostafa.exe" size="1747456">
       <assemblyIdentity name="amir mostafa" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>sveM8bwYptM6zUPNwRcWfl6hNkwWUnaquU2hjnJzle0=</dsig:DigestValue>
+        <dsig:DigestValue>aZwI4SDLX5Kjjt4R4SOVXLURhJOCtBa8wQidgwKIyLE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
